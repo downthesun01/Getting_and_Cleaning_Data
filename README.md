@@ -35,9 +35,9 @@ second_tidy_table.txt
 Related files:
 
 
-run_analysis.R - R script that reads in all of the data files and conducts the analysis resulting in the files                             "first_tidy_table.txt" and "second_tidy_table.txt"
-README.md      - An overview of where the data comes from, how the data has been manipulated, and what the outputs of the                  process are.
-codebook.md    - An explanation of what the data set has: names of variables, a quick explanation of what they are, variable         types, etc.
+run_analysis.R - R script that reads in all of the data files and conducts the analysis resulting in the files                             "first_tidy_table.txt" and "second_tidy_table.txt"  
+README.md      - An overview of where the data comes from, how the data has been manipulated, and what the outputs of the                  process are.  
+codebook.md    - An explanation of what the data set has: names of variables, a quick explanation of what they are, variable         types, etc.  
 
 
 
