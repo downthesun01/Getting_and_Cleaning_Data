@@ -20,15 +20,15 @@ Manipulation of Data:
 
 first_tidy_table.txt
 
-1. merged the x_test.txt and x_train.txt data sets to create one large data set
-2. extracted on the measurements on the mean and standard deviation for each measurement
-3. replaced the numerical representations of activies in the large data set with description names from features.txt
-4. Created appropriate labels for the large data set with descriptive variable names.
-    Example: "tBodyAcc-mean()-Y" becomes "timebodyaccelerometermeany"
+1. merged the x_test.txt and x_train.txt data sets to create one large data set  
+2. extracted on the measurements on the mean and standard deviation for each measurement  
+3. replaced the numerical representations of activies in the large data set with description names from features.txt  
+4. Created appropriate labels for the large data set with descriptive variable names.  
+    Example: "tBodyAcc-mean()-Y" becomes "timebodyaccelerometermeany"  
 
 second_tidy_table.txt
 
-1. Create a second, independent tidy data set with the average of each variable for each activity and each subject. To accomplish this, the melt() and dcast() functions from the reshape2 package have been utilized with a dcast formula of subject + activity ~ variable, mean
+1. Create a second, independent tidy data set with the average of each variable for each activity and each subject. To   accomplish this, the melt() and dcast() functions from the reshape2 package have been utilized with a dcast formula of   subject + activity ~ variable, mean
 
 
 
