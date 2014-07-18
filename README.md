@@ -1,4 +1,4 @@
-\\The experiment data comes courtesy of:
+The experiment data comes courtesy of:
 
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -39,6 +39,6 @@ run_analysis.R - R script that reads in all of the data files and conducts the a
 README.md      - An overview of where the data comes from, how the data has been manipulated, and what the outputs of the                  process are.  
 codebook.md    - An explanation of what the data set has: names of variables, a quick explanation of what they are, variable         types, etc.  
 
-\\
+
 
 
