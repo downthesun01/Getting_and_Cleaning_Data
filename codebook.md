@@ -7,7 +7,7 @@
 | timebodyaccelerometermeany                 | numeric |          | the mean of the time body accelerometer y-axis measurement standardized between -1 and 1                                                       |
 | timebodyaccelerometermeanz                 | numeric |          | the mean of the time body accelerometer z-axis measurement standardized between -1 and 1                                                       |
 | timebodyaccelerometerstandarddeviationx    | numeric |          | the standard deviation of the time body accelerometer x-axis                                                                                   |
-|                                            |         |          | measurement standardized between -1 and 1                                                                                                      |
+|                                            |         |          | measurement standardized between -1 and 1             |
 | timebodyaccelerometerstandarddeviationy    | numeric |          | the standard deviation of the time body accelerometer y-axis measurement standardized between -1 and 1                                         |
 | timebodyaccelerometerstandarddeviationz    | numeric |          | the standard deviation of the time body accelerometer z-axis measurement standardized between -1 and 1                                         |
 | timegravityaccelerometermeanx              | numeric |          | the mean of the time gravity accelerometer x-axis measurement standardized between -1 and 1                                                    |
@@ -15,11 +15,9 @@
 | timegravityaccelerometermeanz              | numeric |          | the mean of the time gravity accelerometer x-axis measurement standardized between -1 and 1                                                    |
 | timegravityaccelerometerstandarddeviationx | numeric |          | the standard deviation of the time gravity accelerometer x-axis measurement standardized between -1 and 1                                      |
 | timegravityaccelerometerstandarddeviationy | numeric |          | the standard deviation of the time gravity accelerometer y-axis measurement standardized between -1 and 1                                      |
-| timegravityaccelerometerstandarddeviationz | numeric |          |                                                                                                                                                |
-
-| timebodyaccelerationjerkmeanx                  | numeric | variable | the mean of the time gravity acceleration jerk x-axis measurement standardized between -1 and 1               |
+| timegravityaccelerometerstandarddeviationz | numeric |          |                                                       | timebodyaccelerationjerkmeanx                  | numeric | variable | the mean of the time gravity acceleration jerk x-axis measurement standardized between -1 and 1               |
 | timebodyaccelerationjerkmeany                  | numeric | 1        | the mean of the time gravity acceleration jerk y-axis measurement standardized between -1 and 1               |
-|          timebodyaccelerationjerkmeanz         | numeric |          | the mean of the time gravity acceleration jerk z-axis measurement standardized between -1 and 1               |
+| timebodyaccelerationjerkmeanz         | numeric |          | the mean of the time gravity acceleration jerk z-axis measurement standardized between -1 and 1               |
 | timebodyaccelerationjerkstandarddeviationx     | numeric |          | the standard deviation of the time gravity acceleration jerk x-axis measurement standardized between -1 and 1 |
 | timebodyaccelerationjerkstandarddeviationy     | numeric |          | the standard deviation of the time gravity acceleration jerk y-axis measurement standardized between -1 and 1 |
 | timebodyaccelerationjerkstandarddeviationz     | numeric |          | the standard deviation of the time gravity acceleration jerk z-axis measurement standardized between -1 and 1 |
@@ -33,7 +31,7 @@
 | timebodyaccelerationmagnitudestandarddeviation | numeric |          | the standard deviation of the time gravity accelerometer z-axis measurement standardized between -1 and 1  |
 | timegravityaccelerationmagnitudemean                     | numeric | variable | the mean of the time gravity acceleration magnitude measurement standardized between -1 and 1             |
 | timegravityaccelerationmagnitudestandarddeviation        | numeric | 1        | the standard deviation of the time gravity acceleration magnitude measurement standardized between -1 and 1               |
-|           timebodyaccelerationjerkmagnitudemean          | numeric |          | the mean of the time body acceleration jerk magnitude measurement standardized between -1 and 1            |
+| timebodyaccelerationjerkmagnitudemean          | numeric |          | the mean of the time body acceleration jerk magnitude measurement standardized between -1 and 1            |
 | timebodyaccelerationjerkmagnitudestandarddeviation       | numeric |          | the standard deviation of the time body jerk acceleration magnitude measurement standardized between -1 and 1             |
 | timebodygyroscopemagnitudemean                           | numeric |          | the mean of the time body gyroscope magnitude measurement standardized between -1 and 1                           |
 | timebodygyroscopemagnitudestandarddeviation              | numeric |          | the standard deviation of the time body gyroscope acceleration magnitude measurement standardized between -1 and 1        |
