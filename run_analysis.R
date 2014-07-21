@@ -79,4 +79,4 @@ second_tidy <- dcast(mean_std_measurements_melt, subject + activity ~ variable, 
 write.table(mean_std_measurements, file = "./first_tidy_table.txt")
 
 #write the second tidy table to a file
-write.table(second_tidy, fiel = "./second_tidy_table.txt")
+write.table(second_tidy, file = "./second_tidy_table.txt")
