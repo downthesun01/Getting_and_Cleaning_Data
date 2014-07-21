@@ -1,5 +1,9 @@
- [1] "activity" - walking, walking_upstairs, walking_downstairs, sitting, standing, laying type: factor                                                                
- [2] "subject" - one of a group of 30 volunteers within an age bracket of 19-48 years type: factor                                                               
+ |:Data Elements:|:Type:  |:Length:|:Description:                                                         |  
+ |---------------|--------|--------|----------------------------------------------------------------------|  
+ |:subject:      |:factor:|:1:     |:one of a group of 30 volunteers within an age bracket of 19-48 years:|  
+ 
+                                             
+ [2] "subject" -  type: factor                                                               
  [3] "timebodyaccelerationelerometermeanx" - the mean of the time body accelerometer x- axis measurement type: numeric                                     
  [4] "timebodyaccelerationelerometermeany" - the mean of the time body accelerometer y- axis measurement type: numeric                                  
  [5] "timebodyaccelerationelerometermeanz" - the mean of the time body accelerometer z- axis measurement type: numeric                                   
