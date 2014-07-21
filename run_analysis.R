@@ -1,13 +1,13 @@
 library(reshape2)
 
-features <- read.table("./features.txt")
-x_test <- read.table("./test/X_test.txt")
-y_test <- read.table("./test/Y_test.txt")
-activity_labels <- read.table("./activity_labels.txt")
-x_train <- read.table("./train/X_train.txt")
-y_train <- read.table("./train/y_train.txt")
-subject_train <- read.table("./train/subject_train.txt")
-subject_test <- read.table("./test/subject_test.txt")
+features <- read.table("./UCI HAR Dataset/features.txt")
+x_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
+y_test <- read.table("./UCI HAR Dataset/test/Y_test.txt")
+activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
+x_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
+y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
+subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
+subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
 #rename y_test$V1 to "activity"
 names(y_test) <- "activity"
