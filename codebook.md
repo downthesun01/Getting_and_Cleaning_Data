@@ -1,85 +1,79 @@
- |:Data Elements:|:Type:  |:Length:|:Description:                                                         |  
- |---------------|--------|--------|----------------------------------------------------------------------|  
- |:subject:      |:factor:|:1:     |:one of a group of 30 volunteers within an age bracket of 19-48 years:|  
- 
-                                             
- [2] "subject" -  type: factor                                                               
- [3] "timebodyaccelerationelerometermeanx" - the mean of the time body accelerometer x- axis measurement type: numeric                                     
- [4] "timebodyaccelerationelerometermeany" - the mean of the time body accelerometer y- axis measurement type: numeric                                  
- [5] "timebodyaccelerationelerometermeanz" - the mean of the time body accelerometer z- axis measurement type: numeric                                   
- [6] "timebodyaccelerationelerometerstandarddeviationx" - the standard deviation of the time body accelerometer x- axis measurement type: numeric                        
- [7] "timebodyaccelerationelerometerstandarddeviationy" - the standard deviation of the time body accelerometer y- axis measurement type: numeric                        
- [8] "timebodyaccelerationelerometerstandarddeviationz" - the standard deviation of the time body accelerometer z- axis measurement type: numeric                        
- [9] "timegravityaccelerationelerometermeanx" - the mean of the time gravity accelerometer x- axis measurement type: numeric                                 
-[10] "timegravityaccelerationelerometermeany" - the mean of the time gravity accelerometer y- axis measurement type: numeric                                  
-[11] "timegravityaccelerationelerometermeanz" - the mean of the time gravity accelerometer z- axis measurement type: numeric                                 
-[12] "timegravityaccelerationelerometerstandarddeviationx" - the standard deviation of the time gravity accelerometer x- axis measurement type: numeric                    
-[13] "timegravityaccelerationelerometerstandarddeviationy" - the standard deviation of the time gravity accelerometer y- axis measurement type: numeric                   
-[14] "timegravityaccelerationelerometerstandarddeviationz" - the standard deviation of the time gravity accelerometer z- axis measurement type: numeric                   
-[15] "timebodyaccelerationjerkmeanx" - the mean of the time gravity acceleration jerk x- axis measurement type: numeric                                         
-[16] "timebodyaccelerationjerkmeany" - the mean of the time gravity acceleration jerk y- axis measurement type: numeric                                         
-[17] "timebodyaccelerationjerkmeanz" - the mean of the time gravity acceleration jerk z- axis measurement type: numeric                                         
-[18] "timebodyaccelerationjerkstandarddeviationx" - the standard deviation of the time gravity acceleration jerk x- axis measurement type: numeric                            
-[19] "timebodyaccelerationjerkstandarddeviationy" - the standard deviation of the time gravity acceleration jerk y- axis measurement type: numeric                            
-[20] "timebodyaccelerationjerkstandarddeviationz" - the standard deviation of the time gravity acceleration jerk z- axis measurement type: numeric                             
-[21] "timebodygyroscopemeanx"  - the mean of the time body gyroscope x- axis type: numeric                                               
-[22] "timebodygyroscopemeany"  - the mean of the time body gyroscope y- axis type: numeric                                               
-[23] "timebodygyroscopemeanz"  - the mean of the time body gyroscope z- axis type: numeric                                               
-[24] "timebodygyroscopestandarddeviationx"  - the standard deviation of the time body gyroscope x- axis type: numeric                                  
-[25] "timebodygyroscopestandarddeviationy"  - the standard deviation of the time body gyroscope y- axis type: numeric                                  
-[26] "timebodygyroscopestandarddeviationz"  - the stabdard deviation of the time body gyroscope z- axis type: numeric                                  
-[27] "timebodygyroscopejerkmeanx"  - the mean of the time body gyroscope jerk x- axis type: numeric                                           
-[28] "timebodygyroscopejerkmeany"  - the mean of the time body gyroscope jerk y- axis type: numeric                                           
-[29] "timebodygyroscopejerkmeanz"  - the mean of the time body gyroscope jerk z- axis type: numeric                                           
-[30] "timebodygyroscopejerkstandarddeviationx" - the standard deviation of the time body gyroscope jerk y- axis type: numeric                               
-[31] "timebodygyroscopejerkstandarddeviationy" - the standard deviation of the time body gyroscope jerk z- axis type: numeric                               
-[32] "timebodygyroscopejerkstandarddeviationz" - the standard deviation of the time body gyroscope jerk z- axis type: numeric                               
-[33] "timebodyaccelerationmagnitudemean" - the mean of the time body acceleration magnitude type: numeric                                     
-[34] "timebodyaccelerationmagnitudestandarddeviation" - the standard deviation of the time body acceleration magnitude type: numeric                        
-[35] "timegravityaccelerationmagnitudemean" - the mean of the time gravity acceleration magnitude type: numeric                                 
-[36] "timegravityaccelerationmagnitudestandarddeviation" - the standard deviation of the time gravity acceleration magnitude type: numeric                      
-[37] "timebodyaccelerationjerkmagnitudemean"                                  
-[38] "timebodyaccelerationjerkmagnitudestandarddeviation"                     
-[39] "timebodygyroscopemagnitudemean"                                         
-[40] "timebodygyroscopemagnitudestandarddeviation"                            
-[41] "timebodygyroscopejerkmagnitudemean"                                     
-[42] "timebodygyroscopejerkmagnitudestandarddeviation"                        
-[43] "frequencydomainsignalbodyaccelerationelerometermeanx"                   
-[44] "frequencydomainsignalbodyaccelerationelerometermeany"                   
-[45] "frequencydomainsignalbodyaccelerationelerometermeanz"                   
-[46] "frequencydomainsignalbodyaccelerationelerometerstandarddeviationx"      
-[47] "frequencydomainsignalbodyaccelerationelerometerstandarddeviationy"      
-[48] "frequencydomainsignalbodyaccelerationelerometerstandarddeviationz"      
-[49] "frequencydomainsignalbodyaccelerationelerometermeanfrequencyx"          
-[50] "frequencydomainsignalbodyaccelerationelerometermeanfrequencyy"          
-[51] "frequencydomainsignalbodyaccelerationelerometermeanfrequencyz"          
-[52] "frequencydomainsignalbodyaccelerationjerkmeanx"                         
-[53] "frequencydomainsignalbodyaccelerationjerkmeany"                         
-[54] "frequencydomainsignalbodyaccelerationjerkmeanz"                         
-[55] "frequencydomainsignalbodyaccelerationjerkstandarddeviationx"            
-[56] "frequencydomainsignalbodyaccelerationjerkstandarddeviationy"            
-[57] "frequencydomainsignalbodyaccelerationjerkstandarddeviationz"            
-[58] "frequencydomainsignalbodyaccelerationjerkmeanfrequencyx"                
-[59] "frequencydomainsignalbodyaccelerationjerkmeanfrequencyy"                
-[60] "frequencydomainsignalbodyaccelerationjerkmeanfrequencyz"                
-[61] "frequencydomainsignalbodygyroscopemeanx"                                
-[62] "frequencydomainsignalbodygyroscopemeany"                                
-[63] "frequencydomainsignalbodygyroscopemeanz"                                
-[64] "frequencydomainsignalbodygyroscopestandarddeviationx"                   
-[65] "frequencydomainsignalbodygyroscopestandarddeviationy"                   
-[66] "frequencydomainsignalbodygyroscopestandarddeviationz"                   
-[67] "frequencydomainsignalbodygyroscopemeanfrequencyx"                       
-[68] "frequencydomainsignalbodygyroscopemeanfrequencyy"                       
-[69] "frequencydomainsignalbodygyroscopemeanfrequencyz"                       
-[70] "frequencydomainsignalbodyaccelerationmagnitudemean"                     
-[71] "frequencydomainsignalbodyaccelerationmagnitudestandarddeviation"        
-[72] "frequencydomainsignalbodyaccelerationmagnitudemeanfrequency"            
-[73] "frequencydomainsignalbodybodyaccelerationjerkmagnitudemean"             
-[74] "frequencydomainsignalbodybodyaccelerationjerkmagnitudestandarddeviation"
-[75] "frequencydomainsignalbodybodyaccelerationjerkmagnitudemeanfrequency"    
-[76] "frequencydomainsignalbodybodygyroscopemagnitudemean"                    
-[77] "frequencydomainsignalbodybodygyroscopemagnitudestandarddeviation"       
-[78] "frequencydomainsignalbodybodygyroscopemagnitudemeanfrequency"           
-[79] "frequencydomainsignalbodybodygyroscopejerkmagnitudemean"                
-[80] "frequencydomainsignalbodybodygyroscopejerkmagnitudestandarddeviation"   
-[81] "frequencydomainsignalbodybodygyroscopejerkmagnitudemeanfrequency" 
+|                Data Elements               | Type    | Length   | Description                                                                                                                                    |
+|:------------------------------------------:|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| activity                                   | factor  | variable | one of 6 different activities currently engage when the measurement was taken: walking, walking_upstairs, walking_downstairs, standing, laying |
+| subject                                    | factor  | 1        | one of a group of 30 volunteers within an age bracket of 19-48 years                                                                           |
+|         timebodyaccelerometermeanx         | numeric |          | the mean of the time body accelerometer x-axis measurement                                                                                     |
+|                                            |         |          | standardized between -1 and 1                                                                                                                  |
+| timebodyaccelerometermeany                 | numeric |          | the mean of the time body accelerometer y-axis measurement standardized between -1 and 1                                                       |
+| timebodyaccelerometermeanz                 | numeric |          | the mean of the time body accelerometer z-axis measurement standardized between -1 and 1                                                       |
+| timebodyaccelerometerstandarddeviationx    | numeric |          | the standard deviation of the time body accelerometer x-axis                                                                                   |
+|                                            |         |          | measurement standardized between -1 and 1                                                                                                      |
+| timebodyaccelerometerstandarddeviationy    | numeric |          | the standard deviation of the time body accelerometer y-axis measurement standardized between -1 and 1                                         |
+| timebodyaccelerometerstandarddeviationz    | numeric |          | the standard deviation of the time body accelerometer z-axis measurement standardized between -1 and 1                                         |
+| timegravityaccelerometermeanx              | numeric |          | the mean of the time gravity accelerometer x-axis measurement standardized between -1 and 1                                                    |
+| timegravityaccelerometermeany              | numeric |          | the mean of the time gravity accelerometer y-axis measurement standardized between -1 and 1                                                    |
+| timegravityaccelerometermeanz              | numeric |          | the mean of the time gravity accelerometer x-axis measurement standardized between -1 and 1                                                    |
+| timegravityaccelerometerstandarddeviationx | numeric |          | the standard deviation of the time gravity accelerometer x-axis measurement standardized between -1 and 1                                      |
+| timegravityaccelerometerstandarddeviationy | numeric |          | the standard deviation of the time gravity accelerometer y-axis measurement standardized between -1 and 1                                      |
+| timegravityaccelerometerstandarddeviationz | numeric |          |                                                                                                                                                |
+
+| timebodyaccelerationjerkmeanx                  | numeric | variable | the mean of the time gravity acceleration jerk x-axis measurement standardized between -1 and 1               |
+| timebodyaccelerationjerkmeany                  | numeric | 1        | the mean of the time gravity acceleration jerk y-axis measurement standardized between -1 and 1               |
+|          timebodyaccelerationjerkmeanz         | numeric |          | the mean of the time gravity acceleration jerk z-axis measurement standardized between -1 and 1               |
+| timebodyaccelerationjerkstandarddeviationx     | numeric |          | the standard deviation of the time gravity acceleration jerk x-axis measurement standardized between -1 and 1 |
+| timebodyaccelerationjerkstandarddeviationy     | numeric |          | the standard deviation of the time gravity acceleration jerk y-axis measurement standardized between -1 and 1 |
+| timebodyaccelerationjerkstandarddeviationz     | numeric |          | the standard deviation of the time gravity acceleration jerk z-axis measurement standardized between -1 and 1 |
+| timebodygyroscopemeanx                         | numeric |          | the mean of the time body gyroscope x-axis measurement standardized between -1 and 1                          |
+| timebodygyroscopemeany                         | numeric |          | the mean of the time body gyroscope y-axis measurement standardized between -1 and 1                          |
+| timebodygyroscopemeanz                         | numeric |          | the mean of the time body gyroscope z-axis measurement standardized between -1 and 1                          |
+| timebodygyroscopejerkstandarddeviationx        | numeric |          | the standard deviation of the time body gyroscope x-axis measurement standardized between -1 and 1            |
+| timebodygyroscopejerkstandarddeviationy        | numeric |          | the standard deviation of the time body gyroscope y-axis measurement standardized between -1 and 1            |
+| timebodygyroscopejerkstandarddeviationz        | numeric |          | the standard deviation of the time body gyroscope z-axis measurement standardized between -1 and 1            |
+| timebodyaccelerationmagnitudemean              | numeric |          | the mean of the time body acceleration magnitude measurement standardized between -1 and 1                    |
+| timebodyaccelerationmagnitudestandarddeviation | numeric |          | the standard deviation of the time gravity accelerometer z-axis measurement standardized between -1 and 1  |
+| timegravityaccelerationmagnitudemean                     | numeric | variable | the mean of the time gravity acceleration magnitude measurement standardized between -1 and 1             |
+| timegravityaccelerationmagnitudestandarddeviation        | numeric | 1        | the standard deviation of the time gravity acceleration magnitude measurement standardized between -1 and 1               |
+|           timebodyaccelerationjerkmagnitudemean          | numeric |          | the mean of the time body acceleration jerk magnitude measurement standardized between -1 and 1            |
+| timebodyaccelerationjerkmagnitudestandarddeviation       | numeric |          | the standard deviation of the time body jerk acceleration magnitude measurement standardized between -1 and 1             |
+| timebodygyroscopemagnitudemean                           | numeric |          | the mean of the time body gyroscope magnitude measurement standardized between -1 and 1                           |
+| timebodygyroscopemagnitudestandarddeviation              | numeric |          | the standard deviation of the time body gyroscope acceleration magnitude measurement standardized between -1 and 1        |
+| timebodygyroscopejerkmagnitudemean                       | numeric |          | the mean of the time body gyroscope jerk  magnitude measurement standardized between -1 and 1               |
+| timebodygyroscopejerkmagnitudestandarddeviation          | numeric |          | the standard deviation of the time body gyroscope jerk acceleration magnitude measurement standardized between -1 and 1   |
+| frequencydomainsignalbodyaccelerometermeanx              | numeric |          | the mean of the frequency domain signal body accelerometer x-axis measurement standardized between -1 and 1               |
+| frequencydomainsignalbodyaccelerometermeany              | numeric |          | the mean of the frequency domain signal body accelerometer y-axis measurement standardized between -1 and 1               |
+| frequencydomainsignalbodyaccelerometermeanz              | numeric |          | the mean of the frequency domain signal body accelerometer z-axis measurement standardized between -1 and 1               |
+| frequencydomainsignalbodyaccelerometerstandarddeviationx | numeric |          | the standard deviation of the frequency domain signal body accelerometer x-axis measurement standardized between -1 and 1 |
+| frequencydomainsignalbodyaccelerometerstandarddeviationy | numeric |          | the mean of the frequency domain signal body accelerometer y-axis measurement standardized between -1 and 1               |
+| timebodyaccelerationmagnitudestandarddeviation           | numeric |          | the mean of the frequency domain signal body accelerometer z-axis measurement standardized between -1 and 1        
+| frequencydomainsignalbodyaccelerometermeanfrequencyx        | numeric | variable | the mean frequency of the frequency domain signal body accelerometer x-axis measurement standardized between -1 and 1         |
+| frequencydomainsignalbodyaccelerometermeanfrequencyy        | numeric | 1        | the mean frequency of the frequency domain signal body accelerometer y-axis measurement standardized between -1 and 1         |
+| frequencydomainsignalbodyaccelerometermeanfrequencyz    | numeric |          | the mean frequency of the frequency domain signal body accelerometer z-axis measurement standardized between -1 and 1         |
+| frequencydomainsignalbodyaccelerationjerkmeanx              | numeric |          | the mean of the frequency domain signal body acceleration jerk x-axis measurement standardized between -1 and 1               |
+| frequencydomainsignalbodyaccelerationjerkmeany              | numeric |          | the mean of the frequency domain signal body acceleration jerk y-axis measurement standardized between -1 and 1               |
+| frequencydomainsignalbodyaccelerationjerkmeanz              | numeric |          | the mean of the frequency domain signal body acceleration jerk z-axis measurement standardized between -1 and 1               |
+| frequencydomainsignalbodyaccelerationjerkstandarddeviationx | numeric |          | the standard deviation of the frequency domain signal body acceleration jerk x-axis measurement standardized between -1 and 1 |
+| frequencydomainsignalbodyaccelerationjerkstandarddeviationy | numeric |          | the standard deviation of the frequency domain signal body acceleration jerk y-axis measurement standardized between -1 and 1 |
+| frequencydomainsignalbodyaccelerationjerkstandarddeviationz | numeric |          | the standard deviation of the frequency domain signal body acceleration jerk z-axis measurement standardized between -1 and 1 |
+| frequencydomainsignalbodyaccelerationjerkmeanfrequencyx     | numeric |          | the mean frequency of the frequency domain signal body acceleration jerk x-axis measurement standardized between -1 and 1     |
+| frequencydomainsignalbodyaccelerationjerkmeanfrequencyy     | numeric |          | the mean frequency of the frequency domain signal body acceleration jerk y-axis measurement standardized between -1 and 1     |
+| frequencydomainsignalbodyaccelerationjerkmeanfrequencyz     | numeric |          | the mean frequency of the frequency domain signal body acceleration jerk z-axis measurement standardized between -1 and 1     |
+| frequencydomainsignalbodygyroscopemeanx                     | numeric |          | the mean of the frequency domain signal body gyroscoping x-axis measurement standardized between -1 and 1                     |
+| frequencydomainsignalbodygyroscopemeany                     | numeric |          | the mean frequency of the frequency domain signal body gyroscope jerk x-axis measurement standardized between -1 and 1 
+| frequencydomainsignalbodygyroscopemeanz                                 | numeric | variable | the mean of the frequency domain signal body gyroscope z-axis measurement standardized between -1 and 1                               |
+| frequencydomainsignalbodygyroscopestandarddeviationx                    | numeric | 1        | the standard deviation of the frequency domain signal body gyroscope x-axis measurement standardized between -1 and 1                 |
+| frequencydomainsignalbodygyroscopestandarddeviationy          | numeric |          | the standard deviation of the frequency domain signal body gyroscope y-axis measurement standardized between -1 and 1                 |
+| frequencydomainsignalbodygyroscopestandarddeviationz                    | numeric |          | the standard deviation of the frequency domain signal body gyroscope z-axis measurement standardized between -1 and 1                 |
+| frequencydomainsignalbodygyroscopemeanfrequencyx                        | numeric |          | the mean frequency of the frequency domain signal body gyroscope x-axis measurement standardized between -1 and 1                     |
+| frequencydomainsignalbodygyroscopemeanfrequencyy                        | numeric |          | the mean frequency of the frequency domain signal body gyroscope y-axis measurement standardized between -1 and 1                     |
+| frequencydomainsignalbodygyroscopemeanfrequencyz                        | numeric |          | the mean frequency of the frequency domain signal body gyroscope z-axis measurement standardized between -1 and 1                     |
+| frequencydomainsignalbodyaccelerationmagnitudemean                      | numeric |          | the mean of the frequency domain signal body acceleration magnitude measurement standardized between -1 and 1                         |
+| frequencydomainsignalbodyaccelerationmagnitudestandarddeviation         | numeric |          | the standard deviation of the frequency domain signal body acceleration magnitude measurement standardized between -1 and 1           |
+| frequencydomainsignalbodyaccelerationmagnitudemeanfrequency             | numeric |          | the mean frequency of the frequency domain signal body acceleration magnitude measurement standardized between -1 and 1               |
+| frequencydomainsignalbodybodyaccelerationjerkmagnitudestandarddeviation | numeric |          | the standard deviation frequency of the frequency domain signal body acceleration magnitude measurement standardized between -1 and 1 |
+| frequencydomainsignalbodybodyaccelerationjerkmagnitudemeanfrequency     | numeric |          | the mean frequency of the frequency domain signal body acceleration jerk magnitude measurement standardized between -1 and 1          |
+| frequencydomainsignalbodybodygyroscopemagnitudemean                     | numeric |          | the mean of the frequency domain signal body gyroscope magnitude measurement standardized between -1 and 1                            |
+| frequencydomainsignalbodybodygyroscopemagnitudestandarddeviation        | numeric |          | frequencydomainsignalbodybodygyroscopemagnitudestandarddeviation                                                                      |
+| frequencydomainsignalbodybodygyroscopemagnitudemeanfrequency         | numeric |   | the mean frequency of the frequency domain signal body body gyroscope magnitude measurement standardized between -1 and 1           |
+| frequencydomainsignalbodybodygyroscopejerkmagnitudemean              | numeric |   | the mean of the frequency doamain signal body body gyroscope jerk magnitude measurement standardized between -1 and 1               |
+| frequencydomainsignalbodybodygyroscopejerkmagnitudestandarddeviation | numeric |   | the standard deviation of the frequency doamain signal body body gyroscope jerk magnitude measurement standardized between -1 and 1 |
+| frequencydomainsignalbodybodygyroscopejerkmagnitudemeanfrequency     | numeric |   |                                                                                                                                     |
