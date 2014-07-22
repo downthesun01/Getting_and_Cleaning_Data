@@ -74,4 +74,4 @@
 | frequencydomainsignalbodybodygyroscopemagnitudemeanfrequency         | numeric |   | the mean frequency of the frequency domain signal body body gyroscope magnitude measurement standardized between -1 and 1           |
 | frequencydomainsignalbodybodygyroscopejerkmagnitudemean              | numeric |   | the mean of the frequency doamain signal body body gyroscope jerk magnitude measurement standardized between -1 and 1               |
 | frequencydomainsignalbodybodygyroscopejerkmagnitudestandarddeviation | numeric |   | the standard deviation of the frequency doamain signal body body gyroscope jerk magnitude measurement standardized between -1 and 1 |
-| frequencydomainsignalbodybodygyroscopejerkmagnitudemeanfrequency     | numeric |   |                                                                                                                                     |
+| frequencydomainsignalbodygyroscopejerkmagnitudemeanfrequency     | numeric |   |                                                                                                                                     |
