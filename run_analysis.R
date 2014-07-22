@@ -62,6 +62,7 @@ names(mean_std_measurements) <- sub("\\(\\)","", names(mean_std_measurements))
 names(mean_std_measurements) <- sub("mag", "magnitude", names(mean_std_measurements))
 names(mean_std_measurements) <- sub("freq", "frequency", names(mean_std_measurements))
 names(mean_std_measurements) <- sub("^f", "frequencydomainsignal", names(mean_std_measurements))
+names(mean_std_measurements) <- sub("bodybody", "body", names(mean_std_measurements))
 
 #convert activity and and subject columns to factors
 mean_std_measurements$activity <- as.factor(mean_std_measurements$activity)
