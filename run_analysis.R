@@ -1,5 +1,7 @@
+#Libraries included
 library(reshape2)
 
+#Read in all of the neeeded .txt files
 features <- read.table("./UCI HAR Dataset/features.txt")
 x_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
 y_test <- read.table("./UCI HAR Dataset/test/Y_test.txt")
@@ -50,7 +52,9 @@ for(i in seq_len(length(activity_labels[ ,2])))
 {
     mean_std_measurements[,"activity"][mean_std_measurements[,"activity"] == i] <- tolower(as.character(activity_labels[i, 2]))
 }
-#try to make the variable names more meaningful
+
+#try to make the variable names more meaningful and ahere to tidy data set standards by lowering the case of all
+#variable names, expanding any abbreviations, and removing characters such as '-'.
 names(mean_std_measurements) <- tolower(names(mean_std_measurements))
 names(mean_std_measurements) <- sub("^t","time", names(mean_std_measurements))
 names(mean_std_measurements) <- sub("acc-","accelerometer",names(mean_std_measurements))
@@ -76,8 +80,5 @@ mean_std_measurements_melt <- melt(mean_std_measurements, id = c("activity", "su
 head(mean_std_measurements_melt)
 second_tidy <- dcast(mean_std_measurements_melt, subject + activity ~ variable, mean)
 
-#write the first tidy table to a file
-write.table(mean_std_measurements, file = "./first_tidy_table.txt")
-
-#write the second tidy table to a file
+#write the tidy table to a file
 write.table(second_tidy, file = "./second_tidy_table.txt")
